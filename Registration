@@ -1,0 +1,64 @@
+<Html>  
+    <head>   
+    <title>  
+    Registration Form
+    </title>  
+    </head>  
+    <body bgcolor="white">  
+    <h2>REGISTRATION FORM </h2>
+    <br>  
+    <form>  
+      
+    <label> Firstname </label>         
+    <input type="text" name="firstname" size="20"/>  &nbsp&nbsp&nbsp&nbsp 
+    <label> Lastname: </label>         
+    <input type="text" name="lastname" size="20"/> <br>  <br>
+      
+    <label> 
+    Stream :  
+    </label>   
+    <select>  
+    <option value="Stream">Stream</option>  
+    <option value="Computer Science And engineering">Computer Science And engineering</option>  
+    <option value="Electrical Enginnering">Electrical Enginnering</option>  
+    <option value="Electrical Communication Engineering">Electrical Communication Engineering</option>  
+    <option value="Civil engineering">Civil engineering</option>  
+    <option value="Biotech engineering">Biotech engineering</option>  
+    <option value="Metalurgical engineering">Metalurgical engineering</option>  
+    <option value="AIML ">AIML</option>  
+    
+    </select>  
+      
+    <br>  
+    <br>  
+    <label>   
+    Gender :  
+    </label><br>  
+    <input type="radio" name="male"/> Male <br>  
+    <input type="radio" name="female"/> Female <br>  
+    <input type="radio" name="other"/> Other  
+    <br>  
+    <br>  
+      
+    <label> 
+      
+    Phone :  
+    </label>  
+    <input type="text" name="country code"  value="+91" size="2"/>   
+    <input type="text" name="phone" size="10"/> <br> <br>  
+    Address  
+    <br>  
+    <textarea cols="80" rows="5" value="address">  
+    </textarea>  
+    <br> <br>  
+    Email:  
+    <input type="email" id="email" name="email"/> <br>    
+    <br> <br>  
+    Password:  
+    <input type="Password" id="pass" name="pass"> <br>   
+    <br> <br>  
+  
+    &nbsp; &nbsp;&nbsp;&nbsp;  <input type="button" value="Submit"/>  
+    </form>  
+    </body>  
+    </html>  
